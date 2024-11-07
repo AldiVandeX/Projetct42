@@ -25,11 +25,11 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
-/*
+
 #include <stdio.h>
 
 int	main(void)
 {
 	printf("%d", ft_strlen("qualquer"));
 	return (0);
-}*/
+}

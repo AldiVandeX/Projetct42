@@ -1,25 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/15 15:25:12 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/10/28 12:26:28 by aldvieir         ###   ########.fr       */
+/*   Created: 2024/11/07 17:46:04 by aldvieir          #+#    #+#             */
+/*   Updated: 2024/11/07 17:46:04 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int	ft_isalnum(int c)
+
+void *ft_calloc(size_t num_elementos, size_t tamanho_elemento)
 {
-	if ((c >= 0 && c <= 9) || (c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-		return (1);
-	return (0);
-}
-int	ft_isalnum(int c)
-{
-	if((ft_isalpha(c)) || (ft_isdigit(c)))
-		return(1);
-	return(0);
+    size_t tamanho_total;
+	void *ptr;
+    
+    tamanho_total = num_elementos * tamanho_elemento;
+    ptr = malloc(tamanho_total);
+    if (ptr == NULL)
+        return NULL;
+    bzero(ptr, tamanho_total);
+
+ return(ptr);
 }

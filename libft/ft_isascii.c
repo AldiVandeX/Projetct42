@@ -15,16 +15,16 @@
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
-		return (c);
+		return (1);
 	return (0);
 }
 
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
 	int c;
 
-	c = '^';
+	c = '-';
 	printf("%d", ft_isascii(c));
-}*/
+}
