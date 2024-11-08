@@ -6,13 +6,13 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 13:03:38 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/10/28 13:35:36 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 09:58:10 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	my_strlcpy(char *dest, const char *src, size_t size)
+size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	size_t	src_len;
 	size_t	i;

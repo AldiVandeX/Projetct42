@@ -6,10 +6,13 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:17:26 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:17:46 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 09:43:22 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr_fd(char *s, int fd);
+void	ft_putstr_fd(char *s, int fd)
+{
+	
+}

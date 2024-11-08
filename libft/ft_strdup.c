@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdub.c                                        :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:51:59 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 08:58:49 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 09:56:32 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,18 @@
 
 char	*ft_strdup(const char *orig)
 {
-	size_t	tamanho;
-	char	*copia;
+	size_t	size;
+	char	*cop;
 	size_t	i;
 
-	tamanho = ft_strlen(orig) + 1;
-	copia = (char *)malloc(tamanho);
+	size = ft_strlen(orig) + 1;
+	cop = (char *)malloc(size);
 	i = 0;
-	if (copia == NULL)
+	if (cop == NULL)
 		return (NULL);
-	if ((i < tamanho), i++)
+	if ((i < size), i++)
 	{
-		copia[i] = orig[i];
+		cop[i] = orig[i];
 	}
-	return (copia);
+	return (cop);
 }

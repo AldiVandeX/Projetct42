@@ -6,10 +6,13 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:13:19 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:13:38 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 09:42:13 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_itoa(int n);
+char	*ft_itoa(int n)
+{
+	
+}

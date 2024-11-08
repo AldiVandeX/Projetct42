@@ -6,10 +6,13 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:14:02 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:14:26 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 09:43:59 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+{
+	
+}

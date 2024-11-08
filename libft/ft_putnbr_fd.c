@@ -6,10 +6,13 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:21:22 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:21:42 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 09:42:43 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd);
+void	ft_putnbr_fd(int n, int fd)
+{
+	
+}
