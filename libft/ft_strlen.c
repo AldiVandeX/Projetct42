@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/29 18:10:04 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/10/23 16:35:14 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 08:50:01 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,11 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int	main(void)
 {
 	printf("%d", ft_strlen("qualquer"));
 	return (0);
 }
+*/
