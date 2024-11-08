@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:16:04 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:42:24 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/08 13:00:43 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_putchar_fd(char c, int fd)
 {
-	
+	write(fd, &c, 1);
 }
