@@ -1,40 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/28 12:09:29 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/05 13:13:15 by aldvieir         ###   ########.fr       */
+/*   Created: 2024/11/05 13:06:10 by aldvieir          #+#    #+#             */
+/*   Updated: 2024/11/05 13:10:02 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+char	*ft_strjoin(const char *s1, const char *s2)
 {
-	unsigned char		*d;
-	unsigned char		*s;
+	char	*result;
 
-	*s = src;
-	*d = dest;
-	if (d < s)
+	result = malloc(strlen(s1) + strlen(s2) + 1);
+	if (result)
 	{
-		while (n--)
-		{
-			*d++ = *s++;
-		}
+		strcpy(result, s1);
+		strcat(result, s2);
 	}
-	else
-	{
-		d += n;
-		s += n;
-		while (n--)
-		{
-			*(--d) = *(--s);
-		}
-	}
-	return (dest);
+	return (result);
 }
-//pode chamar memcopy

@@ -1,40 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/28 12:09:29 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/05 13:13:15 by aldvieir         ###   ########.fr       */
+/*   Created: 2024/11/05 12:49:13 by aldvieir          #+#    #+#             */
+/*   Updated: 2024/11/05 12:51:39 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+void	ft_substr(int pos, int len, int i, char string[])
 {
-	unsigned char		*d;
-	unsigned char		*s;
+	char	substring[1000];
 
-	*s = src;
-	*d = dest;
-	if (d < s)
+	while (i < len)
 	{
-		while (n--)
-		{
-			*d++ = *s++;
-		}
+		substring[i] = string[pos + i - 1];
+		i++;
 	}
-	else
-	{
-		d += n;
-		s += n;
-		while (n--)
-		{
-			*(--d) = *(--s);
-		}
-	}
-	return (dest);
+	substring[i] = '\0';
+	return (0);
 }
-//pode chamar memcopy
