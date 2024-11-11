@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:21:22 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:42:43 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/11 10:00:51 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,18 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	
+	if (n == -2147483648)
+		ft_putstr_fd("-2147483648", fd);
+	else if (n < 0)
+	{
+		putchar('-');
+		ft_putnbr_fd(-n, fd);
+	}
+	else if (n >= 10)
+	{
+		ft_putnbr_fd(n / 10, fd);
+		putchar(n % 10 + '0');
+	}
+	else
+		putchar(n + '0');
 }

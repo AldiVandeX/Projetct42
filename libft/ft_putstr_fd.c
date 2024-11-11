@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:17:26 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:43:22 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/11 10:05:09 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,12 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	
+	char	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		write(fd, &s[i], 1);
+		i++;
+	}
 }
