@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:51:59 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:56:32 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 15:52:24 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,15 @@ char	*ft_strdup(const char *orig)
 	char	*cop;
 	size_t	i;
 
-	size = ft_strlen(orig) + 1;
+	size = ft_strlen((char *)orig) + 1;
 	cop = (char *)malloc(size);
 	i = 0;
-	if (cop == NULL)
+	if (orig == NULL)
 		return (NULL);
-	if ((i < size), i++)
+	if (i < size)
 	{
 		cop[i] = orig[i];
+		i++;
 	}
 	return (cop);
 }

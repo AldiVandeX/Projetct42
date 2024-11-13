@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 16:41:49 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/10/31 13:47:09 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 16:13:37 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,11 @@
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	const char	*big;
-	const char	*little;
-	size_t		little_len;
-
-	if (little == '\0')
-		return (big);
-	if (little > len)
+	if (little == NULL)
+		return ((char *)(big));
+	if (little > big)
 		return (NULL);
-	while (*big != '\0' || ft_strncmp(big, little, little_len))
-		return (*big);
+	while (*big != '\0' || ft_strncmp(big, little, len))
+		return ((char *)(big));
 	return (NULL);
 }

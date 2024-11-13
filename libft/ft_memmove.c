@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 12:09:29 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 08:28:19 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 17:10:48 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,28 +14,28 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	unsigned char		*d;
-	unsigned char		*s;
+	char		*d;
+	char		*s;
+	size_t		i;
 
-	*s = src;
-	*d = dest;
-	if (d < s)
+	d = (char *)dest;
+	s = (char *)src;
+	i = n;
+	if (!src && !dest)
+		return (0);
+	if (src < dest && dest < src + n)
 	{
-		ft_memcpy(d, s, n);
-		while (n--)
+		while (i > 0)
 		{
-			*d++ = *s++;
+			d[i - 1] = s[i - 1];
+			i--;
 		}
 	}
-	else
+	while (n--)
 	{
-		d += n;
-		s += n;
-		while (n--)
-		{
-			*(--d) = *(--s);
-		}
+		*d++ = *s++;
 	}
-	return (dest);
+	ft_memcpy(dest, src, n);
+	return ((void *)dest);
 }
 //pode chamar memcopy

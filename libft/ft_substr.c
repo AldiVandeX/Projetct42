@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 12:49:13 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/05 12:51:39 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 16:56:51 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,12 @@
 
 void	ft_substr(int pos, int len, int i, char string[])
 {
-	char	substring[1000];
+	char	sub[1000];
 
 	while (i < len)
 	{
-		substring[i] = string[pos + i - 1];
+		sub[i] = string[pos + i - 1];
 		i++;
 	}
-	substring[i] = '\0';
-	return (0);
+	sub[i] = '\0';
 }

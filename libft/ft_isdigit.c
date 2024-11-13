@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 15:15:22 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/10/23 16:34:28 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 14:50:49 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,15 @@
 
 int	ft_isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= '0' && c <= '9')
 		return (1);
 	return (0);
 }
+/*int main(void)
+{
+	int	c;
+	
+	c = '0';
+	printf("%d", ft_isdigit(c));
+}
+*/	

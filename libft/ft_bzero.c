@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 12:48:05 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 08:08:20 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/12 14:04:48 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,8 @@
 void	ft_bzero(void *s, size_t len)
 {
 	unsigned char	*p;
-	unsigned char	*s;
 
-	*p = s;
+	p = (unsigned char *)s;
 	while (len --)
 	{
 		(*p++ = 0);

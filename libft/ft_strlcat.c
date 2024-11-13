@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 06:16:00 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/05 10:06:21 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 15:58:47 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	size_t	i;
 
 	len_dst = ft_strlen(dst);
-	len_src = ft_strlen(src);
+	len_src = ft_strlen((char *)src);
 	full_len = len_dst + len_src;
 	space = size - len_dst - 1;
 	i = 0;

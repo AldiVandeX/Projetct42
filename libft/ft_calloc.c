@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:46:04 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:49:55 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/12 17:15:24 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,17 @@
 
 void	*ft_calloc(size_t n, size_t size)
 {
-	size_t	full_size;
-	void	*ptr;
+	size_t		f_size;
+	void		*ptr;
 
-	full_size = n * size;
-	ptr = malloc(full_size);
+	f_size = n * size;
+	ptr = malloc(f_size);
+	if (n == 0 || size == 0)
+		return (malloc(0));
+	if (n > (size_t)-1 / size)
+		return (NULL);
 	if (ptr == NULL)
 		return (NULL);
-	bzero(ptr, full_size);
+	ft_bzero(ptr, f_size);
 	return (ptr);
 }
