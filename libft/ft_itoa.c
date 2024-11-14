@@ -6,50 +6,45 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 05:21:22 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/14 06:09:33 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/14 07:52:47 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	get_digit(int n)
+static char	*ft_str(char *str, int num)
 {
-	int	digits;
+	char	*array;
+	int		count;
 
-	digits = 0;
-	if (n <= 0)
-		digits = 1;
-	while (n != 0)
-	{
-		n /= 10;
-		digits++;
-	}
-	return (digits);
+	count = 0;
+	array = (char *)malloc(sizeof(char) * (num + 1));
+	if (!array)
+		return (NULL);
+	while (num > 0)
+		array[count++] = str[--num];
+	array[count] = '\0';
+	return (array);
 }
 
 char	*ft_itoa(int n)
 {
-	int		len;
-	int		negative;
-	char	*str;
+	int		c;
+	char	array[12];
+	long	aux;
 
-	len = get_digit(n);
-	negative = 0;
-	str = (char *)malloc(len + 1);
-	if (!str)
-		return (NULL);
+	c = 0;
+	aux = n;
 	if (n < 0)
+		aux *= -1;
+	if (n == 0)
+		return (ft_strdup("0"));
+	while (aux > 0)
 	{
-		negative = 1;
-		n = -n;
+		array[c++] = '0' + (aux % 10);
+		aux /= 10;
 	}
-	str[len] = '\0';
-	while (len > 0)
-	{
-		str[--len] = (n % 10) + '0';
-		n /= 10;
-	}
-	if (negative)
-		str[0] = '-';
-	return (str);
+	if (n < 0)
+		array[c++] = '-';
+	return (ft_str(array, c));
 }

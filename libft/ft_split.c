@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/08 09:12:16 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:12:51 by aldvieir         ###   ########.fr       */
+/*   Created: 2024/11/14 07:56:00 by aldvieir          #+#    #+#             */
+/*   Updated: 2024/11/14 07:59:28 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,10 @@
 
 char	**ft_split(char const *s, char c)
 {
+	static
 	
 }
+
+static
+
+
