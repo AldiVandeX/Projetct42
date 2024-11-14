@@ -6,11 +6,9 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 07:39:33 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/12 17:27:20 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/14 00:00:49 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_atoi(const char *strg)
 {

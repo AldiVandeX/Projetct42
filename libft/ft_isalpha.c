@@ -6,11 +6,9 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 11:28:50 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/10/23 16:33:55 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/14 00:07:50 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isalpha(int c)
 {

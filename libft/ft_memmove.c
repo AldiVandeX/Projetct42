@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 12:09:29 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/13 17:10:48 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 17:19:30 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	i = n;
 	if (!src && !dest)
 		return (0);
-	if (src < dest && dest < src + n)
+	if (d > s)
 	{
 		while (i > 0)
 		{
@@ -31,11 +31,13 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			i--;
 		}
 	}
-	while (n--)
+	else
 	{
-		*d++ = *s++;
+		while (n--)
+		{
+			*d++ = *s++;
+		}
 	}
-	ft_memcpy(dest, src, n);
 	return ((void *)dest);
 }
 //pode chamar memcopy

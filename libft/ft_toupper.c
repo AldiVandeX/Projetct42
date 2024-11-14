@@ -6,11 +6,9 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 10:05:53 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/10/23 16:35:52 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/14 00:10:27 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_toupper(int c)
 {

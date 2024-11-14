@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 13:03:38 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/08 09:58:10 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/14 00:32:39 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 
 	src_len = 0;
 	i = 0;
+	if (size == 0)
+		return (ft_strlen(src));
 	while (src[src_len] != '\0')
 	{
 		src_len++;

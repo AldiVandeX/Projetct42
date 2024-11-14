@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 16:17:04 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/13 16:01:48 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/13 21:28:27 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(const char *str, int c);
 //char	*ft_strtrim(char const *s1, char const *set);
 
-void	ft_substr(int pos, int len, int i, char string[]);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 int		ft_tolower(int c);
 int		ft_toupper(int c);
