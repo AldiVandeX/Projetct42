@@ -6,14 +6,13 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 16:17:04 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/14 06:08:20 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/18 15:05:50 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stdlib.h>
-# include <stdio.h>
 # include <unistd.h>
 
 int		ft_atoi(const char *strg);
@@ -38,7 +37,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char *s, int fd);
-//char	**ft_split(char const *s, char c);
+char	**ft_split(char const *s, char c);
 
 char	*ft_strchr(const char *str, int c);
 char	*ft_strdup(const char *orig);
