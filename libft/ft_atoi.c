@@ -6,7 +6,7 @@
 /*   By: aldvieir <aldvieir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 07:39:33 by aldvieir          #+#    #+#             */
-/*   Updated: 2024/11/14 02:30:59 by aldvieir         ###   ########.fr       */
+/*   Updated: 2024/11/19 15:49:14 by aldvieir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_atoi(const char *strg)
 	result = 0;
 	sign = 1;
 	i = 0;
-	while (strg[i] == ' ' || (strg[i] >= 9 && strg[i] <= 13))
+	while (strg[i] == ' ' || (strg[i] >= '\f' && strg[i] <= 13))
 		i++;
 	if (strg[i] == '-' || strg[i] == '+')
 	{
