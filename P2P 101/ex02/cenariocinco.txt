@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    cenariocinco.txt                                   :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aldvieir <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/09/30 17:10:31 by aldvieir          #+#    #+#              #
+#    Updated: 2024/09/30 17:10:33 by aldvieir         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+É fundamental considerar se as perguntas feitas pela pessoa A estão alinhadas com o projeto entregue e o nível de habilidade da pessoa B. Com calma, é sempre mais fácil explicar.
+Entender o avaliado é, em minha opinião, a melhor maneira de conduzir uma avaliação. As primeiras avaliações costumam ser mais desafiadoras, e o nervosismo pode ser um obstáculo.
+A pessoa B precisa perceber que a trapaça apenas prejudica seu progresso. Por sua vez, a pessoa A deve explicar os motivos da aplicação da flag e procurar acolher e orientar a pessoa B.

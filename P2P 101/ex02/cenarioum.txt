@@ -1,0 +1,13 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    cenarioum.txt                                      :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aldvieir <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/09/30 17:09:34 by aldvieir          #+#    #+#              #
+#    Updated: 2024/09/30 17:09:41 by aldvieir         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+É sempre interessante usar o bom senso e imaginar que a mesma situação pode acontecer comigo. Tomo cuidado para não fazer avaliações nos momentos em que estou sendo avaliado. Procuro a pessoa para verificar se ela está ocupada e, caso não tenha outra opção, informo sobre a ausência.
+

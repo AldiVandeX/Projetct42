@@ -1,0 +1,13 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    cenariotres.txt                                    :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aldvieir <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/09/30 17:10:06 by aldvieir          #+#    #+#              #
+#    Updated: 2024/09/30 17:10:09 by aldvieir         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Primeiramente, eu verificaria se a atividade está realmente correta. Se estivesse e passasse na norminette, tentaria entrar em contato com a avaliadora para perguntar se houve um erro. Se não fosse o caso, informaria que a avaliação dela foi incorreta, para que o mesmo não acontecesse com outra pessoa.

@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    cenariodoze.txt                                    :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aldvieir <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/09/30 17:11:50 by aldvieir          #+#    #+#              #
+#    Updated: 2024/09/30 17:11:52 by aldvieir         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+B) Se não for especificado que o projeto seja feito numa VM, você testa no SEU Workspaces.
+Se tiver algum problema técnico, pede para fazer a avaliação em outro momento ou pede
+para que a avaliada clone o repositório na sua frente e teste no Workspaces dela.

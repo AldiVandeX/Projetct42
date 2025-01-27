@@ -1,0 +1,13 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    cenariodois.txt                                    :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aldvieir <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/09/30 17:09:53 by aldvieir          #+#    #+#              #
+#    Updated: 2024/09/30 17:09:55 by aldvieir         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+Acredito que é uma situação bem comum, mas como a avaliada solicitou, eu me apressaria na avaliação, focando nos pontos-chave para terminar o mais rápido possível."
+
