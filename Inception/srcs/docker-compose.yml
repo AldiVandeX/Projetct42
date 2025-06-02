@@ -52,7 +52,7 @@ services:
 
   mariadb:
     env_file:
-      - /home/user42/Inception/srcs/.env
+      - .env
     image: mariadb
     build:
       context: ./requirements/mariadb
